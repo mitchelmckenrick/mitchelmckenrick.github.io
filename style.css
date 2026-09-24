@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background: white;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+}
+
+main {
+    width: 84%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    max-width: 700px;
+}
+
+section {
+    margin-bottom: 100px;
+}
